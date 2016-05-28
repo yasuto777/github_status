@@ -28,7 +28,7 @@ func main() {
     note.Link = "https://status.github.com/"
 
     //Optionally, an app icon (10.9+ ONLY)
-    note.AppIcon = "./Logo.png"
+    note.AppIcon = "./Github_Mark.png"
 
     //Optionally, a content image (10.9+ ONLY)
     //note.ContentImage = "~/Logos/GitHub-Mark-64px.png"
