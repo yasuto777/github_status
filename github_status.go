@@ -22,7 +22,5 @@ func main() {
 
 	byteArray,_ := ioutil.ReadAll(resp.Body)
 	result := string(byteArray)
-	//fmt.Println(string(byteArray))
-	//fmt.Println(byteArray)
 	fmt.Println(result)
 }
