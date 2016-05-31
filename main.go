@@ -21,7 +21,7 @@ func notifier(status string,created string){
 
 	note.Title = "Github status"
 	//note.Subtitle = b 
-	note.Sound = gosxnotifier.Default
+	//note.Sound = gosxnotifier.Default
 	note.Group = "Go_status"
 	note.Link = "https://status.github.com/"
 	note.AppIcon = "./Github_Mark.png"
