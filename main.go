@@ -21,7 +21,7 @@ func notifier(status string,created string){
 
 	note.Title = "Github status"
 	//note.Subtitle = b 
-	//note.Sound = gosxnotifier.Default
+	note.Sound = gosxnotifier.Default
 	note.Group = "Go_status"
 	note.Link = "https://status.github.com/"
 	note.AppIcon = "./Github_Mark.png"
@@ -51,6 +51,7 @@ func main() {
 		return
 	}
 
-	//fmt.Printf("%v\n%v\n",result.Status,result.Last_updated)
+	if result.Status != "good"{
 	notifier(result.Status,result.Last_updated)
+	}
 }
